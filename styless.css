@@ -1,0 +1,115 @@
+/* Resetting default styles for the list and anchor tags */
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Styling the navigation menu */
+  nav {
+    background-color: #36921f; /* Background color of the navigation bar */
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white; /* Text color for the menu items */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  nav a:hover {
+    color: #FFD700; /* Color when hovering over a menu item */
+  }
+  
+  /* Styling the header */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: auto;
+  }
+  
+  /* Styling the main content */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Background color of the body */
+    color: #333; /* Text color for the body */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .columns-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .column {
+    flex: 0 0 30%; /* Adjust the width of each column as needed */
+    background-color: #fff; /* Background color of each column */
+    border: 1px solid #ddd; /* Border color for each column */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px; /* Optional: Add rounded corners to the columns */
+  }
+  
+
+  
+  /* Reset some default styles for better consistency */
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #3498db;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Add more styles as needed */
+
+  /* Styling the footer */
+/* CSS for Footer */
+
+
+
+/* Optionally, you can style links in the footer */
+footer {
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(60, 160, 56);
+  color: white;
+  text-align: center;
+}
